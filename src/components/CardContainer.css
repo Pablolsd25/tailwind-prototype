@@ -1,0 +1,9 @@
+.slick-prev:before,
+.slick-next:before {
+  content: ""; /* Eliminamos el contenido por defecto de las flechas */
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: white !important; /* Cambia el color de las flechas al pasar el ratón */
+}
